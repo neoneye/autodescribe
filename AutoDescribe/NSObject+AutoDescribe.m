@@ -11,9 +11,7 @@
 
 @implementation NSObject (AutoDescribe)
 
--(NSString *)autoDescribe
-{
-    Class classType = [self class];
+-(NSString *)autoDescribe:(Class)classType {
     id instance = self;
     
     NSUInteger count;
@@ -49,11 +47,17 @@
     Class superClass = class_getSuperclass( classType );
     if ( superClass != nil && ! [superClass isEqual:[NSObject class]] )
     {
-        NSString *superString = [instance autoDescribe];
+        NSString *superString = [instance autoDescribe:superClass];
         [propPrint appendString:superString];
     }
     
     return propPrint;
+}
+
+-(NSString *)autoDescribe
+{
+    Class classType = [self class];
+    return [self autoDescribe:classType];
 }
 
 @end

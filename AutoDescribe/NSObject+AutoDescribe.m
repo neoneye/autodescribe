@@ -34,6 +34,9 @@
         {
             @try {
                 id value = [instance valueForKey:propNameString];
+                if ( [NSStringFromClass([value class]) isEqualToString:@"_NSFaultingMutableSet"] ) {
+                    [NSException raise:@"Faulting set detected" format:@"Property %@ is a faulting set", propNameString];
+                }
                 [propPrint appendString:[NSString stringWithFormat:@"%@=%@", propNameString, value]];
             }
             @catch (NSException *exception) {

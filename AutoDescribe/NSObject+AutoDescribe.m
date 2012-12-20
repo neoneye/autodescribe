@@ -13,11 +13,11 @@
 
 -(NSString *)autoDescribe:(Class)classType
 {
-	// We invoke -description on Core Data objects in order to prevent infinite loop.
-	if ([NSStringFromClass(classType) isEqualToString:@"NSManagedObject"]) {
-		return [self description];
-	}
-	
+    // We invoke -description on Core Data objects in order to prevent infinite loop.
+    if ([NSStringFromClass(classType) isEqualToString:@"NSManagedObject"]) {
+        return [self description];
+    }
+    
     id instance = self;
     
     NSUInteger count;

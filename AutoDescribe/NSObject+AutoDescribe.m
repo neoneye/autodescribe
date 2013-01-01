@@ -13,11 +13,6 @@
 
 -(NSString *)autoDescribe:(Class)classType
 {
-    // We invoke -description on Core Data objects in order to prevent infinite loop.
-    if ([NSStringFromClass(classType) isEqualToString:@"NSManagedObject"]) {
-        return [self description];
-    }
-    
     id instance = self;
     
     NSUInteger count;
@@ -63,7 +58,12 @@
 
 -(NSString *)autoDescribe
 {
-    Class classType = [self class];
+	// Don't try to autoDescribe NSManagedObject subclasses (Core Data does this already)
+    if ([self isKindOfClass:NSClassFromString(@"NSManagedObject")]) {
+        return [self description];
+    }
+	
+	Class classType = [self class];
     return [self autoDescribe:classType];
 }
 

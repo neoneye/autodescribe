@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		42B4C642161EE93E0015F5AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4C641161EE93E0015F5AC /* SenTestingKit.framework */; };
 		42B4C644161EE93E0015F5AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4C625161EE93E0015F5AC /* Foundation.framework */; };
-		42B4C64C161EE93E0015F5AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42B4C64A161EE93E0015F5AC /* InfoPlist.strings */; };
 		42B4C65F161EE9E80015F5AC /* NSObject+AutoDescribe.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4C65D161EE9E80015F5AC /* NSObject+AutoDescribe.m */; };
 		42B4C663161EEA210015F5AC /* NSObject+AutoDescribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4C662161EEA210015F5AC /* NSObject+AutoDescribeTests.m */; };
 /* End PBXBuildFile section */
@@ -19,7 +18,6 @@
 		42B4C640161EE93E0015F5AC /* AutoDescribeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoDescribeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B4C641161EE93E0015F5AC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		42B4C649161EE93E0015F5AC /* AutoDescribeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoDescribeTests-Info.plist"; sourceTree = "<group>"; };
-		42B4C64B161EE93E0015F5AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42B4C65C161EE9E80015F5AC /* NSObject+AutoDescribe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AutoDescribe.h"; sourceTree = "<group>"; };
 		42B4C65D161EE9E80015F5AC /* NSObject+AutoDescribe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AutoDescribe.m"; sourceTree = "<group>"; };
 		42B4C661161EEA210015F5AC /* NSObject+AutoDescribeTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AutoDescribeTests.h"; sourceTree = "<group>"; };
@@ -43,7 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				42B4C629161EE93E0015F5AC /* AutoDescribe */,
-				42B4C647161EE93E0015F5AC /* AutoDescribeTests */,
+				42B4C647161EE93E0015F5AC /* Tests */,
 				42B4C622161EE93E0015F5AC /* Frameworks */,
 				42B4C620161EE93E0015F5AC /* Products */,
 			);
@@ -76,23 +74,14 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		42B4C647161EE93E0015F5AC /* AutoDescribeTests */ = {
-			isa = PBXGroup;
-			children = (
-				42B4C648161EE93E0015F5AC /* Supporting Files */,
-				42B4C661161EEA210015F5AC /* NSObject+AutoDescribeTests.h */,
-				42B4C662161EEA210015F5AC /* NSObject+AutoDescribeTests.m */,
-			);
-			path = AutoDescribeTests;
-			sourceTree = "<group>";
-		};
-		42B4C648161EE93E0015F5AC /* Supporting Files */ = {
+		42B4C647161EE93E0015F5AC /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				42B4C649161EE93E0015F5AC /* AutoDescribeTests-Info.plist */,
-				42B4C64A161EE93E0015F5AC /* InfoPlist.strings */,
+				42B4C661161EEA210015F5AC /* NSObject+AutoDescribeTests.h */,
+				42B4C662161EEA210015F5AC /* NSObject+AutoDescribeTests.m */,
 			);
-			name = "Supporting Files";
+			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B4C64C161EE93E0015F5AC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,17 +167,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		42B4C64A161EE93E0015F5AC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42B4C64B161EE93E0015F5AC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		42B4C650161EE93E0015F5AC /* Debug */ = {
@@ -252,7 +229,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "AutoDescribeTests/AutoDescribeTests-Info.plist";
+				INFOPLIST_FILE = "AutoDescribeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -267,7 +244,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = "AutoDescribeTests/AutoDescribeTests-Info.plist";
+				INFOPLIST_FILE = "AutoDescribeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;

@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "AutoDescribe"
-  s.version      = "0.9.1"
+  s.version      = "0.9.2"
   s.summary      = "Prints human-readable information about an instance."
   s.description  = <<-DESC
-                     AutoDescribe is like PHP's var_dump and print_r. 
+                     AutoDescribe is like PHPs var_dump and print_r. 
                      Public properties are pretty printed.
                      Private properties is not printed.
                     DESC

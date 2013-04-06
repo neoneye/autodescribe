@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AutoDescribe"
-  s.version      = "0.9.0"
+  s.version      = "0.9.1"
   s.summary      = "Prints human-readable information about an instance."
   s.description  = <<-DESC
                      AutoDescribe is like PHP's var_dump and print_r. 
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/neoneye/autodescribe"
   s.license      = 'MIT'
   s.author       = { "Simon Strandgaard" => "neoneye@gmail.com" }
-  s.source       = { :git => "https://github.com/neoneye/autodescribe.git", :commit => "9d015bff7d99ef202fdada5e33574c387c40cdf1" }
+  s.source       = { :git => "https://github.com/neoneye/autodescribe.git", :tag => s.version.to_s }
   s.platform     = :ios, '5.0'
   s.source_files = '*.{h,m}'
   s.framework  = 'Foundation'

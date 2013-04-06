@@ -1,11 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "AutoDescribe"
-  s.version      = "0.9.2"
+  s.version      = "1.0.0"
   s.summary      = "Prints human-readable information about an instance."
   s.description  = <<-DESC
                      AutoDescribe is like PHPs var_dump and print_r. 
-                     Public properties are pretty printed.
-                     Private properties is not printed.
+                     Public and private properties are pretty printed.
                     DESC
   s.homepage     = "https://github.com/neoneye/autodescribe"
   s.license      = 'MIT'

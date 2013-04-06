@@ -67,6 +67,6 @@ This code is distributed under the terms and conditions of the [MIT license](LIC
 
 ## Change-log
 
-**Version 0.9** @ 06.04.13
+**Version 1.0.0** @ 06.04.2013
 
 - Full cocoapods support.

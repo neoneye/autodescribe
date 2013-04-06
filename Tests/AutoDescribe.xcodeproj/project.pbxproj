@@ -7,48 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42B4C624161EE93E0015F5AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4C623161EE93E0015F5AC /* UIKit.framework */; };
-		42B4C626161EE93E0015F5AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4C625161EE93E0015F5AC /* Foundation.framework */; };
-		42B4C628161EE93E0015F5AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4C627161EE93E0015F5AC /* CoreGraphics.framework */; };
-		42B4C62E161EE93E0015F5AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42B4C62C161EE93E0015F5AC /* InfoPlist.strings */; };
-		42B4C630161EE93E0015F5AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4C62F161EE93E0015F5AC /* main.m */; };
-		42B4C634161EE93E0015F5AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4C633161EE93E0015F5AC /* AppDelegate.m */; };
-		42B4C636161EE93E0015F5AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B4C635161EE93E0015F5AC /* Default.png */; };
-		42B4C638161EE93E0015F5AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B4C637161EE93E0015F5AC /* Default@2x.png */; };
-		42B4C63A161EE93E0015F5AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B4C639161EE93E0015F5AC /* Default-568h@2x.png */; };
 		42B4C642161EE93E0015F5AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4C641161EE93E0015F5AC /* SenTestingKit.framework */; };
-		42B4C643161EE93E0015F5AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4C623161EE93E0015F5AC /* UIKit.framework */; };
 		42B4C644161EE93E0015F5AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B4C625161EE93E0015F5AC /* Foundation.framework */; };
 		42B4C64C161EE93E0015F5AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42B4C64A161EE93E0015F5AC /* InfoPlist.strings */; };
-		42B4C65E161EE9E80015F5AC /* NSObject+AutoDescribe.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4C65D161EE9E80015F5AC /* NSObject+AutoDescribe.m */; };
 		42B4C65F161EE9E80015F5AC /* NSObject+AutoDescribe.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4C65D161EE9E80015F5AC /* NSObject+AutoDescribe.m */; };
 		42B4C663161EEA210015F5AC /* NSObject+AutoDescribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B4C662161EEA210015F5AC /* NSObject+AutoDescribeTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		42B4C645161EE93E0015F5AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42B4C616161EE93E0015F5AC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42B4C61E161EE93E0015F5AC;
-			remoteInfo = AutoDescribe;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		42B4C61F161EE93E0015F5AC /* AutoDescribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoDescribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		42B4C623161EE93E0015F5AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42B4C625161EE93E0015F5AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		42B4C627161EE93E0015F5AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		42B4C62B161EE93E0015F5AC /* AutoDescribe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoDescribe-Info.plist"; sourceTree = "<group>"; };
-		42B4C62D161EE93E0015F5AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		42B4C62F161EE93E0015F5AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42B4C631161EE93E0015F5AC /* AutoDescribe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoDescribe-Prefix.pch"; sourceTree = "<group>"; };
-		42B4C632161EE93E0015F5AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		42B4C633161EE93E0015F5AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42B4C635161EE93E0015F5AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		42B4C637161EE93E0015F5AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		42B4C639161EE93E0015F5AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		42B4C640161EE93E0015F5AC /* AutoDescribeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoDescribeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B4C641161EE93E0015F5AC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		42B4C649161EE93E0015F5AC /* AutoDescribeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoDescribeTests-Info.plist"; sourceTree = "<group>"; };
@@ -60,22 +27,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42B4C61C161EE93E0015F5AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42B4C624161EE93E0015F5AC /* UIKit.framework in Frameworks */,
-				42B4C626161EE93E0015F5AC /* Foundation.framework in Frameworks */,
-				42B4C628161EE93E0015F5AC /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42B4C63C161EE93E0015F5AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				42B4C642161EE93E0015F5AC /* SenTestingKit.framework in Frameworks */,
-				42B4C643161EE93E0015F5AC /* UIKit.framework in Frameworks */,
 				42B4C644161EE93E0015F5AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,7 +52,6 @@
 		42B4C620161EE93E0015F5AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42B4C61F161EE93E0015F5AC /* AutoDescribe.app */,
 				42B4C640161EE93E0015F5AC /* AutoDescribeTests.octest */,
 			);
 			name = Products;
@@ -105,9 +60,7 @@
 		42B4C622161EE93E0015F5AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				42B4C623161EE93E0015F5AC /* UIKit.framework */,
 				42B4C625161EE93E0015F5AC /* Foundation.framework */,
-				42B4C627161EE93E0015F5AC /* CoreGraphics.framework */,
 				42B4C641161EE93E0015F5AC /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
@@ -116,27 +69,11 @@
 		42B4C629161EE93E0015F5AC /* AutoDescribe */ = {
 			isa = PBXGroup;
 			children = (
-				42B4C632161EE93E0015F5AC /* AppDelegate.h */,
-				42B4C633161EE93E0015F5AC /* AppDelegate.m */,
 				42B4C65C161EE9E80015F5AC /* NSObject+AutoDescribe.h */,
 				42B4C65D161EE9E80015F5AC /* NSObject+AutoDescribe.m */,
-				42B4C62A161EE93E0015F5AC /* Supporting Files */,
 			);
-			path = AutoDescribe;
-			sourceTree = "<group>";
-		};
-		42B4C62A161EE93E0015F5AC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				42B4C62B161EE93E0015F5AC /* AutoDescribe-Info.plist */,
-				42B4C62C161EE93E0015F5AC /* InfoPlist.strings */,
-				42B4C62F161EE93E0015F5AC /* main.m */,
-				42B4C631161EE93E0015F5AC /* AutoDescribe-Prefix.pch */,
-				42B4C635161EE93E0015F5AC /* Default.png */,
-				42B4C637161EE93E0015F5AC /* Default@2x.png */,
-				42B4C639161EE93E0015F5AC /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
+			name = AutoDescribe;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		42B4C647161EE93E0015F5AC /* AutoDescribeTests */ = {
@@ -161,23 +98,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42B4C61E161EE93E0015F5AC /* AutoDescribe */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42B4C652161EE93E0015F5AC /* Build configuration list for PBXNativeTarget "AutoDescribe" */;
-			buildPhases = (
-				42B4C61B161EE93E0015F5AC /* Sources */,
-				42B4C61C161EE93E0015F5AC /* Frameworks */,
-				42B4C61D161EE93E0015F5AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AutoDescribe;
-			productName = AutoDescribe;
-			productReference = 42B4C61F161EE93E0015F5AC /* AutoDescribe.app */;
-			productType = "com.apple.product-type.application";
-		};
 		42B4C63F161EE93E0015F5AC /* AutoDescribeTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42B4C655161EE93E0015F5AC /* Build configuration list for PBXNativeTarget "AutoDescribeTests" */;
@@ -190,7 +110,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				42B4C646161EE93E0015F5AC /* PBXTargetDependency */,
 			);
 			name = AutoDescribeTests;
 			productName = AutoDescribeTests;
@@ -217,24 +136,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42B4C61E161EE93E0015F5AC /* AutoDescribe */,
 				42B4C63F161EE93E0015F5AC /* AutoDescribeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		42B4C61D161EE93E0015F5AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42B4C62E161EE93E0015F5AC /* InfoPlist.strings in Resources */,
-				42B4C636161EE93E0015F5AC /* Default.png in Resources */,
-				42B4C638161EE93E0015F5AC /* Default@2x.png in Resources */,
-				42B4C63A161EE93E0015F5AC /* Default-568h@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42B4C63D161EE93E0015F5AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,16 +169,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42B4C61B161EE93E0015F5AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42B4C630161EE93E0015F5AC /* main.m in Sources */,
-				42B4C634161EE93E0015F5AC /* AppDelegate.m in Sources */,
-				42B4C65E161EE9E80015F5AC /* NSObject+AutoDescribe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42B4C63B161EE93E0015F5AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,23 +180,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		42B4C646161EE93E0015F5AC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42B4C61E161EE93E0015F5AC /* AutoDescribe */;
-			targetProxy = 42B4C645161EE93E0015F5AC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		42B4C62C161EE93E0015F5AC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42B4C62D161EE93E0015F5AC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		42B4C64A161EE93E0015F5AC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,38 +244,14 @@
 			};
 			name = Release;
 		};
-		42B4C653161EE93E0015F5AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AutoDescribe/AutoDescribe-Prefix.pch";
-				INFOPLIST_FILE = "AutoDescribe/AutoDescribe-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		42B4C654161EE93E0015F5AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AutoDescribe/AutoDescribe-Prefix.pch";
-				INFOPLIST_FILE = "AutoDescribe/AutoDescribe-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		42B4C656161EE93E0015F5AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoDescribe.app/AutoDescribe";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AutoDescribe/AutoDescribe-Prefix.pch";
 				INFOPLIST_FILE = "AutoDescribeTests/AutoDescribeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -405,13 +262,11 @@
 		42B4C657161EE93E0015F5AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoDescribe.app/AutoDescribe";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AutoDescribe/AutoDescribe-Prefix.pch";
 				INFOPLIST_FILE = "AutoDescribeTests/AutoDescribeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -427,15 +282,6 @@
 			buildConfigurations = (
 				42B4C650161EE93E0015F5AC /* Debug */,
 				42B4C651161EE93E0015F5AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42B4C652161EE93E0015F5AC /* Build configuration list for PBXNativeTarget "AutoDescribe" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42B4C653161EE93E0015F5AC /* Debug */,
-				42B4C654161EE93E0015F5AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

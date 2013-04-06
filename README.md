@@ -10,7 +10,7 @@ It takes forever to write NSLog. Classes evolves and the properties changes. NSL
 
 #### Solution
 
-AutoDescribe is like PHP's vardump and print_r. All properties are pretty printed.
+AutoDescribe is like PHP's var_dump and print_r. All properties are pretty printed.
 
 
 #### Sample code

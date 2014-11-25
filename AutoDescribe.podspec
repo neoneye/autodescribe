@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AutoDescribe"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Prints human-readable information about an instance."
   s.description  = <<-DESC
                      AutoDescribe is like PHPs var_dump and print_r. 
